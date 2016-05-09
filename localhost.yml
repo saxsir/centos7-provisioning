@@ -1,0 +1,4 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no    # 実行前に対象サーバの情報を収集する
+  become: no
